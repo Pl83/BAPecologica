@@ -50,6 +50,8 @@ function ecologica_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'ecologica' ),
+      'footer_nav' => 'footer_nav',
+      'footer_eco' => 'footer_eco'
 		)
 	);
 
