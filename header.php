@@ -33,6 +33,8 @@
 			"theme_location" => "header"
 		));
 	?>
-
+	<div class="candidater">
+		<a href="">Candidater</a>
+	</div>
 
 </header>

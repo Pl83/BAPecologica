@@ -21,3 +21,49 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.ecologica-menu {
+	background-color: #293946;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 4em;
+}
+
+.ecologica-menu img {
+	height: 70px;
+	width: auto;
+}
+
+.ecologica-menu .menu ul {
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+	gap: 2em;
+	margin-right: 65em;
+}
+
+.ecologica-menu .menu ul .children {
+	display: none;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.candidater a {
+	color: white;
+	text-decoration: none;
+	background-color: #FB6A35;
+	border-radius: 4px;
+	padding: 1em;
+}

@@ -17,28 +17,6 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-		<?php
-		while ( have_posts() ) :
-			the_post(); ?>
-
-			<?php if(!is_front_page()) : ?>
-
-
-			<div class="title-page">
-				<h1><?php the_title(); ?></h1>
-			</div>
-
-			<?php else : ?>
-
-			<div class="background-cafe">
-
-			</div>
-
-		<?php endif; ?>
-		
-		<?php endwhile; // End of the loop.
-		?>
-
 	</main><!-- #main -->
 
 <?php
