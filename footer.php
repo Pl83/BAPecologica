@@ -13,13 +13,7 @@
 
 	<footer id="colophon" class="site-footer">
         <style>
-            .FS{
-                display: flex;
-                flex-direction: row;
-            }
-            .FDP{
-                max-width: 150px;
-            }
+
         </style>
 		<section class="FS FS1">
           <p class="FDP" >Ecologica est l’école supérieure de la transition résiliente, solidaire et désirable, à la fois lieu d’apprentissages et de participations à un changement de modèle de société.</p>
@@ -42,12 +36,12 @@
             </div>
         </section>
         <section class="FS FS2">
-            <p >Copyright © 2022 IIM - Institue de l'internet et des multimedia</p>
+            <p >Copyright © 2022 <br> IIM - Institue de l'internet et des multimedia</p>
             <ul>
-                <li><a href="#"><img alt="Youtube" src=""></a></li>
-                <li><a href="#"><img alt="Linkedin" src=""></a></li>
-                <li><a href="#"><img alt="Instagram" src=""></a></li>
-                <li><a href="#"><img alt="Facebook" src=""></a></li>
+                <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
             </ul>
             <p>Politique de confidentialité – Mentions légales</p>
         </section>
@@ -55,6 +49,9 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 </html>
