@@ -50,6 +50,8 @@ function ecologica_setup() {
 	register_nav_menus(
 		array(
 			"header" => "Menu du haut de la page",
+          'footer_nav' => 'footer_nav',
+          'footer_eco' => 'footer_eco',
 		)
 	);
 
