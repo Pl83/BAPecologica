@@ -34,7 +34,7 @@
 		));
 	?>
 	<div class="candidater">
-		<a href="">Candidater</a>
+		<a href="">Candidatez</a>
 	</div>
 
 </header>
