@@ -49,9 +49,9 @@ function ecologica_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'ecologica' ),
-      'footer_nav' => 'footer_nav',
-      'footer_eco' => 'footer_eco'
+			"header" => "Menu du haut de la page",
+          'footer_nav' => 'footer_nav',
+          'footer_eco' => 'footer_eco',
 		)
 	);
 
