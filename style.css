@@ -1,71 +1,46 @@
-/*!
-Theme Name: ecologica
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
-Version: 1.0.0
-Tested up to: 5.4
-Requires PHP: 5.6
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: ecologica
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
-
-ecologica is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-
-*/
-
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .ecologica-menu {
-	background-color: #293946;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0 3em;
+  background-color: #293946;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3em;
 }
 
 .ecologica-menu img {
-	height: 70px;
-	width: auto;
+  height: 70px;
+  width: auto;
 }
 
 .ecologica-menu .menu ul {
-	display: flex;
-	list-style: none;
-	flex-direction: row;
-	gap: 2em;
-	margin-right: 63em;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  gap: 2em;
+  margin-right: 63em;
 }
 
 .ecologica-menu .menu ul .children {
-	display: none;
+  display: none;
 }
 
 .menu a {
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .candidater a {
-	color: white;
-	text-decoration: none;
-	background-color: #FB6A35;
-	border-radius: 4px;
-	padding: 1em;
+  color: white;
+  text-decoration: none;
+  background-color: #FB6A35;
+  border-radius: 4px;
+  padding: 1em;
 }
 
 footer {

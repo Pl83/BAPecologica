@@ -16,7 +16,14 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
+        <div>
+            <div>
 
+            </div>
+            <div>
+                <img src="img/pict.png" alt="pictogramme">
+            </div>
+        </div>
 	</main><!-- #main -->
 
 <?php
